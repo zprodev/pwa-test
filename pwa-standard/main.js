@@ -3,11 +3,11 @@ function output(text) {
   document.body.appendChild(document.createElement('br'));
 }
 
-const cookie = document.cookie;
-if (!cookie) document.cookie = Date.now();
+let cookie = document.cookie.split('; ').filter(value => value.startsWith('time='))[0];
+if (!cookie) document.cookie = cookie = `time=${Date.now()}`;
 
-const strage = localStorage.getItem('time');
-if (!strage) localStorage.setItem('time', Date.now());
+let strage = localStorage.getItem('time');
+if (!strage) localStorage.setItem('time', strage = Date.now());
 
-output(`cookie = ${cookie}`);
+output(`cookie = ${cookie.split('=')[1]}`);
 output(`localStorage = ${strage}`);
