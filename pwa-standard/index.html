@@ -3,14 +3,16 @@
   <title>pwa-standard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="./manifest.webmanifest">
+  <!-- favicon -->
   <link rel="icon" sizes="192x192" href="./icon.png">
+  <!-- theme-color is effective only with android now -->
   <meta name="theme-color" content="#29434e">
 </head>
 <body>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js');
-    }else{
+    } else {
       alert('ServiceWorker unavailable');
     }
   </script>
