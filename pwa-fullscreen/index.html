@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <head>
-  <title>pwa-standard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pwa-fullscreen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <link rel="manifest" href="./manifest.webmanifest">
   <!-- favicon -->
   <link rel="icon" sizes="192x192" href="./icon.png">
+  <!-- Home screen icon for iOS -->
+  <link rel="apple-touch-icon" href="./icon_ios.png">
   <!-- theme-color is effective only with Android now -->
   <meta name="theme-color" content="#29434e">
+  <!-- Pseudo fullschreen for iOS. Use with "viewport-fit=cover" -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
-<body>
+<body style="background-color: #e0e0e0" >
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js');
