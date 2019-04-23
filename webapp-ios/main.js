@@ -4,7 +4,10 @@ function output(text) {
 }
 
 let cookie = document.cookie.split('; ').filter(value => value.startsWith('time='))[0];
-if (!cookie) document.cookie = cookie = `time=${Date.now()}`;
+if (!cookie) {
+  cookie = `time=${Date.now()}`; 
+  document.cookie = `${cookie}; max-age=864000`;
+}
 
 let strage = localStorage.getItem('time');
 if (!strage) localStorage.setItem('time', strage = Date.now());
