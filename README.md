@@ -5,7 +5,7 @@
 Standard implementation according to the specification.
 Works well on Android.
 
-## [PWA for iOS](https://zprodev.github.io/pwa-test/pwa-standard)
+## [PWA for iOS](https://zprodev.github.io/pwa-test/pwa-ios)
 
 Minimal implementation for iOS 11.3 and later.
 
