@@ -34,3 +34,12 @@ output(`localStorage = ${strage}`);
   document.body.appendChild(link);
   document.body.appendChild(document.createElement('br'));
 }
+
+{
+  const link = document.createElement('a');
+  link.href = 'https://github.com/zprodev/pwa-test';
+  link.target = '_blank';
+  link.text = 'New Window Link';
+  document.body.appendChild(link);
+  document.body.appendChild(document.createElement('br'));
+}
