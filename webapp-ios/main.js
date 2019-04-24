@@ -15,8 +15,8 @@ if (!strage) localStorage.setItem('time', strage = Date.now());
 output(`cookie = ${cookie.split('=')[1]}`);
 output(`localStorage = ${strage}`);
 
-// Link to Google
+// Link to GitHub
 const link = document.createElement('a');
-link.href = 'https://www.google.com/';
+link.href = 'https://github.com/zprodev/pwa-test';
 link.text = 'Standard Link';
 document.body.appendChild(link);
