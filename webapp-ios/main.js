@@ -16,7 +16,21 @@ output(`cookie = ${cookie.split('=')[1]}`);
 output(`localStorage = ${strage}`);
 
 // Link to GitHub
-const link = document.createElement('a');
-link.href = 'https://github.com/zprodev/pwa-test';
-link.text = 'Standard Link';
-document.body.appendChild(link);
+{
+  const link = document.createElement('a');
+  link.href = 'https://github.com/zprodev/pwa-test';
+  link.text = 'A Tag Link';
+  document.body.appendChild(link);
+  document.body.appendChild(document.createElement('br'));
+}
+
+{
+  const link = document.createElement('a');
+  link.href = 'javascript:void(0)';
+  link.onclick = () => {
+    location.href = 'https://github.com/zprodev/pwa-test';
+  }
+  link.text = 'JavaScript Link';
+  document.body.appendChild(link);
+  document.body.appendChild(document.createElement('br'));
+}
