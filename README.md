@@ -20,3 +20,7 @@ Standardize Landscape display on Android and iOS.
 ## [WebApp for iOS](https://zprodev.github.io/pwa-test/webapp-ios)
 
 Legacy implementation for older iOS.
+
+## [PWA Maskable icon](https://zprodev.github.io/pwa-test/pwa-maskable-icon)
+
+Setting maskable icon.
