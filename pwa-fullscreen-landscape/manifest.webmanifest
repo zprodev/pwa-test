@@ -2,7 +2,7 @@
   "name": "Landscape PWA",
   "short_name": "Landscape",
   "start_url": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#546e7a",
   "theme_color": "#29434e",

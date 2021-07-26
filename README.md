@@ -17,6 +17,10 @@ Standardize Fullscreen display on Android and iOS.
 
 Standardize Landscape display on Android and iOS.
 
+## [PWA Landscape Fullscreen](https://zprodev.github.io/pwa-test/pwa-landscape-fullscreen/)
+
+Standardize Landscape Fullscreen display on Android and iOS.
+
 ## [WebApp for iOS](https://zprodev.github.io/pwa-test/webapp-ios/)
 
 Legacy implementation for older iOS.
