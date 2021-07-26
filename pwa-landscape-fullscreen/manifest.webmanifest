@@ -1,6 +1,6 @@
 {
-  "name": "Landscape PWA",
-  "short_name": "Landscape",
+  "name": "Landscape Fullscreen PWA",
+  "short_name": "Landscape Full",
   "start_url": "./",
   "display": "fullscreen",
   "orientation": "landscape",
