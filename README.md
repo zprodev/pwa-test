@@ -29,6 +29,10 @@ Legacy implementation for older iOS.
 
 Setting maskable icon.
 
+## [PWA Install Control](https://zprodev.github.io/pwa-test/pwa-install-control/)
+
+Controlling the installation with JavaScript.
+
 ## [PWA Rich Install](https://zprodev.github.io/pwa-test/pwa-rich-install/)
 
 Add screenshots and descriptions to the installation UI.
