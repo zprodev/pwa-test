@@ -36,3 +36,8 @@ Controlling the installation with JavaScript.
 ## [PWA Rich Install](https://zprodev.github.io/pwa-test/pwa-rich-install/)
 
 Add screenshots and descriptions to the installation UI.
+
+## [PWA Dynamic activation](https://zprodev.github.io/pwa-test/pwa-dynamic-activation/)
+
+Enable PWA with JavaScript.
+It can be used to load different manifest files according to language settings.
